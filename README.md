@@ -1,1 +1,1 @@
-# react-redux-crud
+# react-redux-starter
