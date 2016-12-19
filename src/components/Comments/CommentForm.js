@@ -14,7 +14,7 @@ const CommentForm = ({ comment, onSave, onChange, onDelete, saving, errors }) =>
         <div className={classnames("col-xs-12", "end-xs")}>
           <Button label="Back" icon="reply" raised onMouseUp={() => {
             browserHistory.push('/comments');
-          } } />
+          }} />
         </div>
       </div>
       <div className="row">
