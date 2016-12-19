@@ -1,0 +1,21 @@
+@import '../globals';
+
+.showbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000001;
+  height: 100%;
+  width: 100%;
+  background: none repeat scroll 0 0 black;
+  position: fixed;
+  display: block;
+  opacity: 0.5;
+}
+
+.loader {
+  position: relative;
+  top: $appbar-height - 1rem;
+}

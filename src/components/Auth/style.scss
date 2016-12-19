@@ -1,0 +1,32 @@
+@import '../globals';
+
+hgroup { 
+	text-align:center;
+	margin-top: 8rem;
+
+  h3 {
+    color: $appbar-color;
+  }
+
+  .subtitle {
+    margin-top: 1rem;
+    color: $coral;
+    font-weight: 200;
+  }
+}
+
+.group { 
+	position: relative;
+	margin-bottom: 2rem;
+}
+
+.dashboardCard {
+  width: 40rem;
+	margin: 4em auto;
+	padding: 3em 2em 2em 2em;
+}
+
+.cardActions {
+  padding-top: 2rem;
+  justify-content: flex-end;
+}

@@ -1,0 +1,22 @@
+@import "./globals";
+
+.mainPage {
+  margin-top: $appbar-height;
+  margin-left: $navigation-width;
+}
+
+.mainContent {
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.mainBreadcrumbs {
+  padding-bottom: 2rem;
+  color: $hit-grey;
+
+  a {
+    transition: color .4s;
+    color: $appbar-color;
+  }
+  a:link, a:visited { color: $appbar-color; }
+  a:active, a:hover { color: $ebony; }
+}

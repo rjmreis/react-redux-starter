@@ -1,0 +1,68 @@
+@import '../globals';
+
+.root {
+  display: flex;
+  width: $navigation-width;
+  flex-direction: column;
+  background-color: $color-background;
+}
+
+.navigation {
+  position: fixed;
+  top: $appbar-height;
+  bottom: 0;
+  left: 0;
+  z-index: $z-index-highest;
+  box-shadow: $documentation-left-shadow;
+  transition: transform $animation-duration $animation-curve-default;
+}
+
+.list {
+  @include no-webkit-scrollbar;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.item {
+  > span{
+    padding: $navigation-v-padding $navigation-h-padding;
+  }
+  [data-react-toolbox="list-item-text"] {
+    font-size: $font-size-small;
+    font-weight: $font-weight-semi-bold;
+  }
+}
+
+.active {
+  background: $color-divider;
+
+  span:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: .3rem;
+    height: 100%;
+    content: '';
+    background-color: $color-primary;
+  }
+}
+
+.footer {
+  flex-grow: 0;
+  padding: $navigation-h-padding;
+  overflow: hidden;
+  text-align: center;
+  font-size: $font-size-small;
+  color: $color-text-secondary;
+  border-top: $navigation-footer-border;
+  > * {
+    display: block;
+  }
+}
+
+.footerTitle {
+  color: $coral;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+}

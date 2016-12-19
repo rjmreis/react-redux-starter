@@ -1,0 +1,14 @@
+@import '../globals';
+
+.welcome {
+  .title {
+    margin-top: 3rem;
+    color: $coral;
+  }
+
+  .subtitle {
+    margin-top: 2rem;
+    letter-spacing: 0.3em;
+    color: $hit-grey;
+  }
+}

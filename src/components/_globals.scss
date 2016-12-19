@@ -1,0 +1,25 @@
+@import "~react-toolbox/lib/colors";
+@import "~react-toolbox/lib/globals";
+@import "~react-toolbox/lib/mixins";
+
+$unit: 1rem;
+$color-content: #fafafa;
+$navigation-width: 22 * $unit;
+$navigation-h-padding: 2.4 * $unit;
+$navigation-v-padding: 1.2 * $unit;
+$navigation-footer-border: solid 1px rgb(224, 224, 224);
+$documentation-left-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+$documentation-right-shadow: -2px 0 4px rgba(0,0,0,.14);
+
+$appbar-height: 6.4 * $unit;
+$appbar-logo-size: 15 * $unit;
+$appbar-shadow: 0 1px rgba(255,255,255,.65);
+$appbar-navigation-offset: 6.5 * $unit;
+
+$appbar-color: #37474F;
+$white-smoke: #F6F6F6;
+$ebony: #2E3339;
+$very-light-grey: #CCCCCC;
+$coral: #FD7348;
+$hit-grey: #ABACAC;
+$pattens-blue: #D7E8F7;

@@ -1,0 +1,43 @@
+@import "../globals";
+
+.appbar {
+  z-index: $z-index-higher;
+  display: flex;
+  min-height: $appbar-height;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: $appbar-shadow;
+  background-color: $appbar-color;
+}
+
+.appTitle {
+  text-transform: uppercase;
+}
+
+.topBarOptions {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.companySettings {
+  flex-grow: 1;
+  text-align: right;
+
+  > span {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 500; 
+  }
+}
+
+.menu {
+  > div {
+    margin-top: 4rem;
+    margin-right: 1rem;
+  }
+
+  button > span {
+    color: #ffffff;
+  }
+}
