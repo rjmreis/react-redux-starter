@@ -30,6 +30,8 @@
   },
   "license": "MIT",
   "dependencies": {
+    "babel-cli": "6.18.0",
+    "babel-core": "6.21.0",
     "immutability-helper": "^2.0.0",
     "normalize.css": "^5.0.0",
     "object-assign": "4.1.0",
@@ -47,8 +49,6 @@
   },
   "devDependencies": {
     "autoprefixer": "6.5.4",
-    "babel-cli": "6.18.0",
-    "babel-core": "6.21.0",
     "babel-eslint": "^7.1.1",
     "babel-loader": "6.2.10",
     "babel-plugin-react-display-name": "2.0.0",
