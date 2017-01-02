@@ -7,7 +7,6 @@ npm-debug.log*
 pids
 *.pid
 *.seed
-dist
 
 # Coverage directory used by tools like istanbul
 coverage
