@@ -27,6 +27,11 @@ Start the app:
 $ npm start -s
 ```
 
+Build the app:
+```bash
+$ npm run build
+```
+
 ## NOTE
 This is a work in progress repo, tests are still missing...
 
