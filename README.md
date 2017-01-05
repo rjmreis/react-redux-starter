@@ -13,6 +13,17 @@ The foundation of this project is highly based on the amazing **react-slingshot*
  
 [react-slingshot](https://github.com/coryhouse/react-slingshot)
 
+## Demo
+
+[https://reactredux-starter.herokuapp.com/](https://reactredux-starter.herokuapp.com/)
+
+```
+Login details
+
+user:       admin
+password:   password
+```
+
 ## Quick Start
 
 Clone project and install dependencies:
@@ -34,9 +45,3 @@ $ npm run build
 
 ## NOTE
 This is a work in progress repo, tests are still missing...
-
-## Login Details
-```
-user:       admin
-password:   password
-```
