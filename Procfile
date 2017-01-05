@@ -1,1 +1,1 @@
-web: npm run open:dist
+web: npm run dist-server
