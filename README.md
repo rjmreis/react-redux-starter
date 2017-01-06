@@ -15,7 +15,7 @@ The foundation of this project is highly based on the amazing **react-slingshot*
 
 ## Demo
 
-[https://reactredux-starter.herokuapp.com/](https://reactredux-starter.herokuapp.com/)
+[reactredux-starter.herokuapp.com](https://reactredux-starter.herokuapp.com/)
 
 ```
 Login details
