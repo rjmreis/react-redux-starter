@@ -8,11 +8,6 @@ A React/Redux starter project with login and basic CRUD functionality in a Mater
 ## The Goal
 The goal of this repo is to provide a general guidance in setting up a react/redux project with tools such as webpack, babel, eslint, trying as much as possible to follow best practises.
 
-## Credits
-The foundation of this project is highly based on the amazing **react-slingshot** repo by Cory House.
- 
-[react-slingshot](https://github.com/coryhouse/react-slingshot)
-
 ## Demo
 
 [reactredux-starter.herokuapp.com](https://reactredux-starter.herokuapp.com/)
@@ -45,3 +40,8 @@ $ npm run build
 
 ## NOTE
 This is a work in progress repo, tests are still missing...
+
+## Credits
+The foundation of this project is highly based on the amazing **react-slingshot** repo by Cory House.
+ 
+[react-slingshot](https://github.com/coryhouse/react-slingshot)
