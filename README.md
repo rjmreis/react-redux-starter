@@ -1,6 +1,4 @@
 [![Build Status](https://secure.travis-ci.org/rjmreis/react-redux-starter.svg)](http://travis-ci.org/rjmreis/react-redux-starter)
-[![Dependencies Status](https://david-dm.org/rjmreis/react-redux-starter.svg)](https://david-dm.org/rjmreis/react-redux-starter)
-[![DevDependencies Status](https://david-dm.org/rjmreis/react-redux-starter/dev-status.svg)](https://david-dm.org/rjmreis/react-redux-starter#info=devDependencies)
 
 # react-redux-starter
 A React/Redux starter project with login and basic CRUD functionality in a Material flavor
